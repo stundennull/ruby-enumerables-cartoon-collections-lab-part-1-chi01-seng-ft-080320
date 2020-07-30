@@ -6,6 +6,7 @@ end
 
 def list_dwarves(array)
   array.each_with_index do | single_dwarf, index |
-    puts "(#{index} + 1). #{single_dwarf}"
+    sum = #{index} + 1
+    puts "sum . #{single_dwarf}"
   end
 end
